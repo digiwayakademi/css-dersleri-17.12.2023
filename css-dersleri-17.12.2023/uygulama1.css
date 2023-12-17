@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+  /* Header */
+
+
+.header-message{
+    padding: 10px;
+    text-align: center;
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+}
+.header-message i{
+    color: #fff;
+    vertical-align: middle;
+}
+
+.header-social{
+    padding: 20px 40px;
+   
+}
+
+.header-social-ikon{
+    width: calc(50% - 15px);   
+    display: inline-block;
+    
+}
+
+.header-social-ikon i{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.header-register{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+.header-register a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+
+.header-register i{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #000;
+}
+
+
+.header-menu{
+    padding: 15px 10px;
+    text-align: center;  
+}
+
+.header-menu a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* Section 1 */
+
+
+.populer-products{
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.populer-products .box{
+    display: inline-block;
+    width: 33%;    
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.populer-products .first{
+   color: 004d1a;
+   background-color: #b3ffcc;
+    
+}
+
+.populer-products .first:hover{
+   transform: scale(1.05);
+   cursor: pointer;
+ }
+
+.populer-products .second{
+    background-color:#e6ccff;
+    color:#400080; 
+}
+
+.populer-products .second:hover{
+    transform: scale(1.05);
+   cursor: pointer;
+}
+
+.populer-products .third{
+    background-color: #ccf5ff;
+    color: #006680;
+}
+
+.populer-products .third:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Main 1 */
+
+
+.main-container{
+    width: 1300px;    
+    margin: 50px auto; 
+}
+.main-box{
+
+    width: 30%;
+    height: 250px;
+    background-color: red;
+    float: left; 
+    margin-left: 20px;
+    border-radius: 8px;
+    transition-duration: .8s;
+}
+
+.main-box p{
+    background-color: #252525;
+    color: #fff;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    top: 217px;
+}
+
+.main-box:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.main-box:hover p{  
+  background-color: coral;
+  cursor: pointer;
+}
+
+.main-container .first{
+    background: url("resim4.jpeg");    
+}
+
+.main-container .second{
+    background: url("resim1.jpeg");    
+}
+.main-container .third{
+    background: url("resim3.jpeg"); 
+    background-position: center center;
+    background-size: cover;   
+}
+
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
